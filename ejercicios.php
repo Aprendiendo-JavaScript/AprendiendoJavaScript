@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/stylejs.css">
     <title>MaquinaFiesta</title>
-    <script src="js/ejercicios.js"></script>
+    <script src="codigo.js"></script>
 </head>
 <body>
 <div class="contenedor">
@@ -14,12 +14,12 @@
 			<div class="principal" id="principal">	
                 <h1>MAQUINA FIESTA</h1>
                 <label for="nombre">¿Comó se llama?:</label>
-                <input type="text" class="nombre">
+                <input type="text" class="nombre" id="nombre">
                 <label for="edad">Introduzca su edad:</label>
-                <input type="text" class="edad">
+                <input type="text" class="edad" id="edad">
                 <label for="hora">Introduzca la hora:</label>
-                <input type="text" class="hora">
-                <input type="submit" class="enviar" onClink="maquinaFiesta()">
+                <input type="text" class="hora" id="hora">
+                <input type="submit" class="enviar" onClick="maquinaFiesta()">
 			</div>
 		</div>
 	</div>

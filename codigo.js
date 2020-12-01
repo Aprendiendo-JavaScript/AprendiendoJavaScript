@@ -1,9 +1,9 @@
 let primeraPers = false
 
 const maquinaFiesta = ()=> {
-    let edad = document.getElementsByClassName("edad").value;
-    let hora = document.getElementsByClassName("hora").value;
-    let nombre = document.getElementsByClassName("nombre").value;
+    let edad = document.getElementById("edad").value;
+    let hora = document.getElementById("hora").value;
+    let nombre = document.getElementById("nombre").value;
     let volver = document.getElementById("principal").innerHTML;
     if(edad >= 18){
         if (hora >= 2 && primeraPers == false) {
