@@ -8,10 +8,20 @@
     <script src="codigo.js"></script>
 </head>
 <body>
-<div class="contenedor">
-      <?php include "estructura/cabecera.html"?>
-		<div class="contenido">
-			<div class="principal" id="principal">	
+    <div class="contenedor">
+        <div class="header">
+            <p class="logo"><a href="index.html">Curso JavaScripts</a></p>
+            <ul>
+                <li><a href="calculadora.html">calculadora</a></li>
+                <li><a href="aprendiendo_javascripts.html">Aprendiendo JavaScripts</a></li>
+                <li><a href="plantilla.html">Plantilla</a></li>
+                <li><a href="cursodiez.html">Curso 10 Horas</a></li>
+                <li><a href="orientacion_objeto.html">Orientacion Objetos</a></li>
+                <li><a href="ejercicios.html">Ejercicios</a></li>
+            </ul>
+        </div>
+        <div class="contenido">
+            <div class="principal" id="principal">	
                 <h1>MAQUINA FIESTA</h1>
                 <label for="nombre">¿Comó se llama?:</label>
                 <input type="text" class="nombre" id="nombre">
@@ -20,10 +30,8 @@
                 <label for="hora">Introduzca la hora:</label>
                 <input type="text" class="hora" id="hora">
                 <input type="submit" class="enviar" onClick="maquinaFiesta()">
-			</div>
-		</div>
-	</div>
-
-    
+            </div>
+        </div>
+    </div>
 </body>
 </html>
