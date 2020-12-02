@@ -61,7 +61,7 @@ p{
     background-color: #f2f2f2;
     padding: 20px;
 }
-input[type=text], select {
+input, select {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -76,19 +76,8 @@ input[type=text], select {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1.2em;
     text-align: right;
-}
-
-input[type=password], select {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-}
-  
-input[type=submit],.numero {
+}  
+button[type=submit],.numero {
     width: 100%;
     background-color: #cc8b00;
     color: white;
