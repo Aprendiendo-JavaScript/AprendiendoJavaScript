@@ -1,0 +1,17 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.container{
+    column-count:2;
+    margin: 50px;
+}
+
+.div-column1,.div-column2{
+    border:2px solid black;
+    border-radius: 5px;
+    margin: auto 30px;
+    width: 70%;
+    padding: 30px;
+    background-color: crimson;
+}
