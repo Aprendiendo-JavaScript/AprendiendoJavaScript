@@ -3,7 +3,6 @@
 <head>
 	<title>Pagina Principal</title>
 	<link rel="stylesheet" href="css/stylejs.css">
-	<script src="js/validarForm.js"></script>
 	
 </head>
 <body id="cuerpo">
@@ -23,15 +22,16 @@
 			<div class="principal">	
 				<h1>INSCRIPCION MATERIA</h1><br>
 				<form name="form1" id="formulario" autocomplete="off">
-					<input type="text" placeholder="Nick usuario" id="usuario">
-					<input type="text" placeholder="Nombre completo" id="nombre">
-					<input type="email" placeholder="Email" id="email">
-					<input type="text" placeholder="Materia" id="materia">
+					<input type="text" placeholder="Nick usuario" name="usuario" id="usuario">
+					<input type="text" placeholder="Nombre completo" name="nombre" id="nombre">
+					<input type="email" placeholder="Email" name="email" id="email">
+					<input type="text" placeholder="Materia" name="materia" id="materia">
 				</form>
 				<button type="submit" id="btn-enviar">Enviar</button>
 				<div class="resultado"></div>
 			</div>
 		</div>
+		<script src="js/validarForm.js"></script>
 	</div>
 </body>
 </html>
